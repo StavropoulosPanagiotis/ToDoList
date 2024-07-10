@@ -5,14 +5,58 @@
     box-sizing: border-box;
 }
 
+/*The background */
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(150deg, #131842, #E68369);
+    background: linear-gradient(150deg, #E6B9A6, #2F3645);
     padding: 200px;
 }
 
+/*The small box in the middle*/
 .todo-app{
-    width: 100%;
-    max-width: 540px;
+    background: #FFF5E1;
+    padding: 40px 30px 70px;
+    border-radius: 30px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.todo-app h1{
+    color: #002765;
+}
+
+.todo-app h1 img{
+    width: 50px;
+    margin-top: 0px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    background: hsl(220, 29%, 53%);
+
+    border-radius: 30px;
+}
+
+/*The input row */
+input{
+    padding-right: 350px;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 20px;
+}
+
+/*The add button */
+button{
+    border: none;
+    outline: none;
+    background: #ff5945;
+    padding: 16px 50px;
+    cursor: pointer;
+    border-radius: 30px;
 }
